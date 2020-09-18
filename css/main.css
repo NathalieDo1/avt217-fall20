@@ -1,23 +1,36 @@
 body {
-  background-color: #E6A595
+  background-color: #6D463D
 }
 body {
-  font-family: 'Montserrat', sans-serif;
-}
 
+}
 h1 {
   font-size: 90px;
   font-weight: lighter;
+  font-variant: inherit;
   color: white;
-  margin-top: 350px;
+  margin-top: 250px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
 a {
   color: white;
+  font-style: italic;
   text-decoration: none;
 }
 a:hover{
-  color: #9F7964;
-  color: #6D463D;
-  font-style: italic;
-  font-weight: bolder;
+  color: #471C0B;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
 }
