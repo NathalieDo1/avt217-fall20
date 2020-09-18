@@ -1,0 +1,23 @@
+body {
+  background-color: #E6A595
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: lighter;
+  color: white;
+  margin-top: 350px;
+  text-align: center;
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #9F7964;
+  color: #6D463D;
+  font-style: italic;
+  font-weight: bolder;
+}
