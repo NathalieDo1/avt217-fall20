@@ -4,7 +4,7 @@ body {
   background-size: cover;
   object-fit: none;
   object-position: right;
-  background-color: #5E2C2C;
+  background-color: #6D463D;
 
 }
 h1 {
@@ -44,6 +44,7 @@ a {
   text-decoration: none;
 }
 a:hover{
+  color: #5E2C2C;/*redish*/
   color: #2F1002;
   font-weight: bold;
   font-style: normal;

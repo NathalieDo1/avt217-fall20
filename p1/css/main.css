@@ -1,5 +1,5 @@
 body {
-  background-color: #6D463D
+  background-color: #BDA191
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -29,15 +29,14 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color:Whitesmoke;
+  color: #8A7369;
 }
 a:hover{
-  /*color: #9F7964;*/
-  /*color: #6D463D;*/
-  color: #5E2C2C;
+  color: #9F7964;
+  color: #6D463D;
   font-style: italic;
   font-weight: bolder;
 }
 a:active {
-  color: whitesmoke;
+  color:#885139;
 }
