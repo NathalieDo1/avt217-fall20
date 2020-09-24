@@ -10,7 +10,6 @@ body {
 h1 {
   font-size: 120px;
   font-weight: lighter;
-  font-variant: inherit;
   color: white;
   margin-top: 140px;
   margin-left: 100px;
@@ -20,22 +19,21 @@ h1 {
 h2 {
   font-size: 65px;
   font-weight: lighter;
-  font-variant: inherit;
   color: white;
-  margin-top: -80px;
+  margin-top: -90px;
   margin-left: 100px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 ul{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: lighter;
   color: white;
   margin-top: 100px;
   margin-left: 50px;
   text-align: center;
   list-style: none;
-  line-height: 60px;
+  line-height: 50px;
   font-family: 'Montserrat', sans-serif;
 }
 a {
