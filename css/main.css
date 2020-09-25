@@ -1,18 +1,14 @@
 body {
-  /*background-image: url("IMG_6645.jpg");*/
-  background-position: top right;
-  background-size: cover;
-  object-fit: none;
-  object-position: right;
   background-color: #6D463D;
-
+  font-size: 16px;
+  margin: 50px;
 }
 h1 {
   font-size: 120px;
   font-weight: lighter;
   color: white;
   margin-top: 140px;
-  margin-left: 100px;
+  margin-left: 50px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -21,22 +17,23 @@ h2 {
   font-weight: lighter;
   color: white;
   margin-top: -90px;
-  margin-left: 100px;
+  margin-left: 50px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-ul{
+ul {
   font-size: 30px;
   font-weight: lighter;
   color: white;
   margin-top: 100px;
   margin-left: 50px;
+  padding: 0;
   text-align: center;
   list-style: none;
   line-height: 50px;
   font-family: 'Montserrat', sans-serif;
 }
-a {
+a:link {
   color: white;
   font-style: italic;
   text-decoration: none;
