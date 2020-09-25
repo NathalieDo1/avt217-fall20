@@ -49,11 +49,13 @@ img {
   text-decoration: none;
 }
 .page1 a:hover{
-  color: #5E2C2C;/*redish*/
   color: #2F1002;
   font-weight: bold;
   font-style: normal;
   font-size: 40px;
+}
+.page1 a:visited {
+  color: #E3CBC3;
 }
 .E1 {
   background: #9DA47E;
