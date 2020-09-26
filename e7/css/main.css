@@ -1,0 +1,15 @@
+body {
+  background: #EADBD7;
+  font-family: 'Zilla Slab', serif;
+  font-size: 20px;
+  margin: 100px;
+  margin-top: 70px;
+  padding: 0;
+}
+h1 {
+  font-size: 65px;
+}
+.author {
+  font-size: 20px;
+  font-style: italic;
+}
