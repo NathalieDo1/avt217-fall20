@@ -7,17 +7,28 @@ body {
   margin: 100px;
   padding: 0;
 }
-img {
-  max-width:100%;
+.html {
+  /*background-color: #DAC2B3;
+  background-image: url(../images/smallflower.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;*/
 }
 .page1 {
-  background-color: #6D463D;
+  background-image: url(../images/smallflower.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  width: 90%;
 }
 .page1 h1 {
-  font-size: 150px;
+  font-size: 120px;
   font-weight: lighter;
   color: white;
-  margin-top: 140px;
+  margin-top: 100px;
   margin-left: 50px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -26,19 +37,18 @@ img {
   font-size: 65px;
   font-weight: lighter;
   color: white;
-  margin-top: -90px;
+  margin-top: -100px;
   margin-left: 50px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 .page1 ul {
-  font-size: 30px;
-  font-weight: lighter;
-  color: white;
-  margin-top: 100px;
-  margin-left: 50px;
-  padding: 0;
-  text-align: center;
+  font-size: 23px;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-left: 100px;
+  /*padding: 5;*/
+  text-align: left;
   list-style: none;
   line-height: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -48,14 +58,32 @@ img {
   font-style: italic;
   text-decoration: none;
 }
+.page1 a:visited {
+  color: #765A3E;
+}
 .page1 a:hover {
-  color: #2F1002;
+  color: #6A4E33;
   font-weight: bold;
   font-style: normal;
-  font-size: 40px;
+  font-size: 23px;
 }
-.page1 a:visited {
-  color: #E3CBC3;
+.columns1 {
+  columns: 3;
+  -webkit-columns: 3;
+ -moz-columns: 3;
+  float: left;
+  position: relative;
+  margin-bottom: 80px;
+  column-gap: 300px;
+}
+.columns2 {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  float: left;
+  padding-left: 325px;
+  margin-bottom: 80px;
+  column-gap: 300px;
 }
 .E1 {
   background: #9DA47E;
