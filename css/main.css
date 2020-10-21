@@ -1,11 +1,12 @@
 body {
-  background: #DEDDDC;
-  color: #404040;
-  font-size: 50px;
+  background: #DAC2B3;
+  color: white;
+  font-size: 20px;
   font-family: sans-serif;
   font-weight: lighter;
   margin: 100px;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 img {
   width: 100%;
@@ -44,6 +45,11 @@ main {
 .col {
   width: 33.33%;
   float: left;
+}
+.col2 {
+  width: 33.33%;
+  float: left;
+  margin-top: 75px;
 }
 .page1 ul {
   font-size: 25px;
@@ -89,11 +95,22 @@ main {
   text-align: left;
   font-family: serif;
 }
-.e9 {
+.E4 {
+  font-size: 50px;
+}
+.E6 {
+  font-size: 50px;
+}
+.e9 ul {
+  font-size: 30px;
   text-align: center;
   list-style: none;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+}
+.e9 h1 {
+  text-align: center;
+  font-size: 100px;
 }
 a:link {
   color: white;
