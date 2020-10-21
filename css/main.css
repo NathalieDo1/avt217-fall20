@@ -11,12 +11,7 @@ img {
   width: 100%;
 }
 .html {
-  /*background-color: #DAC2B3;
-  background-image: url(../images/smallflower.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;*/
+  font-size: 16px;
 }
 .page1 {
   background-image: url(../images/smallflower.jpg);
@@ -27,33 +22,36 @@ img {
   height: 100%;
   width: 90%;
 }
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
 .page1 h1 {
-  font-size: 120px;
+  font-size: 100px;
   font-weight: lighter;
   color: white;
-  margin-top: 100px;
-  margin-left: 50px;
+  margin: 25px auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 .page1 h2 {
-  font-size: 65px;
+  font-size: 35px;
   font-weight: lighter;
   color: white;
-  margin-top: -100px;
-  margin-left: 50px;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+.col {
+  width: 33.33%;
+  float: left;
+}
 .page1 ul {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: normal;
-  margin-top: 50px;
-  margin-left: 100px;
-  /*padding: 5;*/
-  text-align: left;
+  margin-left: auto;
+  padding: 0;
   list-style: none;
-  line-height: 50px;
+  line-height: 40px;
   font-family: 'Montserrat', sans-serif;
 }
 .page1 a:link {
@@ -69,24 +67,6 @@ img {
   font-weight: bold;
   font-style: normal;
   font-size: 23px;
-}
-.columns1 {
-  columns: 3;
-  -webkit-columns: 3;
- -moz-columns: 3;
-  float: left;
-  position: relative;
-  margin-bottom: 80px;
-  column-gap: 300px;
-}
-.columns2 {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  float: left;
-  padding-left: 325px;
-  margin-bottom: 80px;
-  column-gap: 300px;
 }
 .E1 {
   background: #9DA47E;
@@ -127,4 +107,20 @@ a:hover {
   color: #6A4E33;
   font-weight: bold;
   font-style: normal;
+}
+@media screen and (max-width: 900px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  .page1 h1 {
+    font-size: 3rem;
+  }
+
 }
