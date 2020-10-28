@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  background-color: #DAC2B3;
 }
 .board {
   width: 800px;
@@ -73,7 +74,7 @@ body {
 .blog {
   width: 800px;
   display: flow-root;
-  margin: 100px 50px 0;
+  margin: 50px auto 0;
 }
 .blog1 {
   width: 800px;
