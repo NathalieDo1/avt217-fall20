@@ -101,14 +101,14 @@ main {
 .E6 {
   font-size: 50px;
 }
-.e9 ul {
+.e9 .e10 ul {
   font-size: 30px;
   text-align: center;
   list-style: none;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-.e9 h1 {
+.e9 .e10 h1 {
   text-align: center;
   font-size: 100px;
 }
