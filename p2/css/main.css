@@ -28,7 +28,7 @@ img {
 }
 .menu {
   background-image: url(../images/crabnoodles2.jpg);
-  background-size: contain;
+  background-size:contain;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -74,37 +74,29 @@ h2 {
   font-style: italic;
   font-weight: lighter;
   margin: 0;
-  position: absolute;
-  top: 190px;
-  left: 880px;
 }
-.title h1 {
-  font-size: 100px;
+.title h2 {
+  font-size: 110px;
   font-weight: lighter;
+  font-style: normal;
   text-align: center;
-  line-height: 10px;
+  line-height: 80px;
 }
 .small-h2 {
-  font-size: 50px;
-  position: absolute;
-  top: 275px;
-  left: 565px;
+  font-size: 65px;
 }
 .biglogo {
-  padding: 200px 0;
+  padding: 150px 0 220px;
 }
 .border {
   background: none;
-  padding: 100px;
+  padding: 50px;
   width: 900px;
   margin: 0 auto;
-  opacity: 30%;
-  border: 10px solid white;
-  position: absolute;
-  left: 500px;
-  top: 250px;
+  border: 10px  solid rgba(255,255,255,.3);
 }
 .box {
+  background-color: rgba(255,255,255,.14);
   padding: 100px;
   margin: 0 auto;
 }
@@ -151,6 +143,18 @@ hr {
   top: 1550px;
   left: 1050px;
 }
+/*----------------Menu------------------*/
+.type {
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  background-color: #201F1E;
+  width: 100%;
+  height: 150px;
+  margin-top: 150px;
+}
+/*----------------bottom------------------*/
 footer {
   text-align: center;
 }
