@@ -1,20 +1,20 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  /*background-color: #DAC2B3;*/
-}
  html {
   /*background-color: #2D302D;*/
   color: white;
   font-family: 'Hind Guntur', sans-serif;
 }
 body {
-  background-color: #2D302D;
   color: white;
   font-family: 'Hind Guntur', sans-serif;
   margin: 0;
+}
+main {
+  background-color: #2D302D;
+  display: flow-root;
+  margin: 100px 0;
 }
 img {
   width: 100%;
@@ -28,7 +28,7 @@ img {
 }
 .menu {
   background-image: url(../images/crabnoodles2.jpg);
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -62,11 +62,9 @@ a:link {
 }
 a:hover {
   color: #999C8D;
-  text-decoration: none;
 }
 a:visited {
   color: white;
-  text-decoration: none;
 }
 /*------------------------mid page---------------*/
 h2 {
@@ -107,41 +105,75 @@ h2 {
   top: 400px;
   left: 800px;
 }
+.info {
+  display: flow-root;
+  width: 950px;
+  margin: 150px auto;
+}
 .about {
   text-align: center;
   font-size: 30px;
   font-weight: lighter;
   line-height: 45px;
-  position: absolute;
-  top: 1150px;
-  left: 495px;
 }
 hr {
+  text-align: center;
   border-width: thin;
-  width:1000px;
+  width: 950px;
   color: white;
   opacity: 30%;
-  position: absolute;
-  top: 1400px;
-  left: 455px;
+  display: flow-root;
+  margin: 100px auto;
 }
 .location {
   text-align: center;
   font-size: 30px;
   font-weight: lighter;
   line-height: 45px;
-  position: absolute;
-  top: 1550px;
-  left: 500px;
+  float: left;
+  margin: 0;
+  padding-bottom: 150px;
 }
 .hours {
   text-align: center;
   font-size: 30px;
   font-weight: lighter;
   line-height: 45px;
-  position: absolute;
-  top: 1550px;
-  left: 1050px;
+  float: right;
+  margin: 0;
+  padding-bottom: 150px;
+}
+.list {
+  display: flow-root;
+  margin: 0;
+}
+.col {
+  width: 100%;
+  margin: 0;
+}
+.col2 {
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+.col2 .info {
+  width: 30%;
+  text-align: left;
+  margin: auto;
+}
+.col3 {
+  width: 33%;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+.col3 .info {
+  width: 40%;
+  text-align: left;
+  margin: auto;
 }
 /*----------------Menu------------------*/
 .type {
@@ -152,7 +184,13 @@ hr {
   background-color: #201F1E;
   width: 100%;
   height: 150px;
-  margin-top: 150px;
+}
+.s-title {
+  padding: 40px 0 0 0;
+}
+.s-img {
+  margin: 0;
+  padding-top: 300px;
 }
 /*----------------bottom------------------*/
 footer {
@@ -171,20 +209,19 @@ footer {
   text-align: center;
   font-style: italic;
   margin-top: 70px;
-
 }
 .email {
   font-size: 20px;
   text-align: center;
   font-style: italic;
-
 }
 .phone {
   font-size: 20px;
   font-style: italic;
   text-align: center;
-
 }
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 1000px) {
+  .col {
+    width: 100%;
+  }
 }
