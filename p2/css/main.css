@@ -25,12 +25,14 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
 }
 .menu {
   background-image: url(../images/crabnoodles2.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  height: 100vh;
 }
 header {
   background: rgba(76, 88, 74, .5);
@@ -108,14 +110,17 @@ h2 {
 }
 .info {
   display: flow-root;
-  width: 950px;
   margin: 150px auto;
 }
+p {
+  margin: 0;
+  }
 .about {
   text-align: center;
   font-size: 30px;
   font-weight: lighter;
   line-height: 45px;
+  padding-top: 100px;
 }
 hr {
   text-align: center;
@@ -132,8 +137,6 @@ hr {
   font-weight: lighter;
   line-height: 45px;
   float: left;
-  margin: 0;
-  padding-bottom: 150px;
 }
 .hours {
   text-align: center;
@@ -141,8 +144,6 @@ hr {
   font-weight: lighter;
   line-height: 45px;
   float: right;
-  margin: 0;
-  padding-bottom: 150px;
 }
 .list {
   display: flow-root;
@@ -167,9 +168,9 @@ hr {
   font-size: 20px;
   text-align: center;
   margin: 0;
-  padding: 0 0 200px 0;
+  padding: 0 0 150px 0;
 }
-.col2 .info {
+.col2 .info, .col2 .s-title {
   width: 30%;
   text-align: left;
   margin: auto;
@@ -178,45 +179,40 @@ hr {
   width: 33%;
   float: left;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   margin: 0;
-  padding: 0 0 200px 0;
+  padding: 0 0px 200px;
 }
-.col3 .info {
+.col3 .info, .col3 .s-title {
   width: 40%;
   text-align: left;
   margin: auto;
 }
 /*----------------Menu------------------*/
-.type {
+.type, .type p {
   font-size: 30px;
   padding-top: 10px;
   text-align: center;
   font-weight: lighter;
   background-color: #201F1E;
   width: 100%;
-  height: 150px;
 }
 .s-title {
-  padding: 40px 0 0 0;
+  padding: 40px 0 0;
 }
 .s-img {
   margin: 0;
   padding-top:0;
 }
-.s-type {
-  font-size: 20px;
-  font-weight: lighter;
-  font-style: italic;
-  text-align: center;
-  padding-top: 0;
+.s-img img {
+  display: block;
 }
-.s-type h4 {
+.type p {
   font-size: 20px;
   font-weight: lighter;
   font-style: italic;
   text-align: center;
-  padding-top: 0;
+  padding: 0 0 50px;
 }
 .info-fresh {
   width: 60%;
@@ -225,23 +221,23 @@ hr {
   text-align: center;
   margin: 0 auto;
 }
+h3 {
+  padding: 0 0 40px;
+}
 /*----------------bottom------------------*/
 footer {
   text-align: center;
 }
 .footer {
   width: 100%;
-  height: 280px;
   background-color: #1D211D;
   text-align: center;
-  position: absolute;
-  top: 2000px;
+  padding: 90px;
 }
 .contact {
   font-size: 30px;
   text-align: center;
   font-style: italic;
-  margin-top: 70px;
 }
 .email {
   font-size: 20px;
