@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
  html {
-  /*background-color: #2D302D;*/
   color: white;
   font-family: 'M PLUS 1p', sans-serif;
 }
@@ -89,6 +88,9 @@ h2 {
 .biglogo {
   padding: 150px 0 220px;
 }
+.biglogo2 /*Menu*/ {
+  padding: 200px 0 200px;
+}
 .border {
   background: none;
   padding: 50px;
@@ -137,14 +139,14 @@ hr {
   font-size: 30px;
   font-weight: lighter;
   line-height: 45px;
-  float: left;
+  padding: 0 0 0 400px;
 }
 .hours {
   text-align: center;
   font-size: 30px;
   font-weight: lighter;
   line-height: 45px;
-  float: right;
+  padding: 0 400px 0 0;
 }
 .list {
   display: flow-root;
@@ -152,13 +154,12 @@ hr {
 }
 .col {
   width: 100%;
-  padding: 0 500px 200px;
+  padding: 100px 650px 200px;
   font-size: 20px;
   text-align: center;
 }
 .col .info {
   width: 50%;
-  padding: 0 100px;
   font-size: 20px;
   text-align: left;
   margin: 0 auto;
@@ -169,7 +170,7 @@ hr {
   font-size: 20px;
   text-align: center;
   margin: 0;
-  padding: 0 0 150px 0;
+  padding: 100px 0 150px;
 }
 .col2 .info, .col2 .s-title {
   width: 30%;
@@ -182,7 +183,7 @@ hr {
   font-size: 20px;
   text-align: left;
   margin: 0;
-  padding: 0 0px 200px;
+  padding: 100px 0px 200px;
 }
 .col3 .info, .col3 .s-title {
   width: 40%;
@@ -199,7 +200,6 @@ hr {
   width: 100%;
 }
 .s-title {
-  padding: 40px 0 0;
   font-weight: 500;
 }
 .s-img {
@@ -253,8 +253,104 @@ footer {
   font-style: italic;
   text-align: center;
 }
+
 @media screen and (max-width: 1000px) {
+  .logo {
+    margin: 10px 20px;
+    font-size: 16px;
+  }
+  nav ul {
+    font-size: 16px;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  nav li {
+    margin: 0 50px 0 0;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .title h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .small-h2 {
+    font-size: 25px;
+  }
+  .biglogo {
+    padding: 200px 0;
+  }
+  .border {
+    padding: 15px;
+    width: 400px;
+    border: 4px solid rgba(255,255,255,.3);
+  }
+  .box {
+    padding: 30px;
+  }
+  .info {
+    margin: 50px auto;
+  }
+  .about {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0 50px;
+  }
+  hr {
+    width: 300px;
+  }
+  .location, .hours{
+    font-size: 20px;
+    line-height: 35px;
+  }
   .col {
     width: 100%;
+    padding: 50px 20px 100px;
+    font-size: 16px;
+  }
+  .col, .info, .s-title {
+    width: 100%;
+    font-size: 16px;
+  }
+  .col2 {
+    width: 100%;
+    padding: 0px 100px 100px;
+  }
+  .col2 .info, .col2 .s-title {
+    width: 100%;
+    margin: auto;
+  }
+  .col3 {
+    width: 100%;
+    font-size: 16px;
+    padding: 50px 100px 100px;
+  }
+  .col3 .info, .col3 .s-title {
+    width: 100%;
+  }
+  .type, .type p {
+    font-size: 20px;
+  }
+  .s-title {
+    padding: 40px 0 0;
+  }
+  .s-img img {
+    display: block;
+  }
+  .type p {
+    font-size: 17px;
+    padding: 0 30px 50px;
+  }
+  .info-fresh {
+    width: 100%;
+    padding: 0 100px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  .contact {
+    font-size: 20px;
+  }
+  .email, .phone{
+    font-size: 16px;
   }
 }
